@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CreativeWeb Co. | Custom Website Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>CreativeWeb Co.</h1>
+      <p>We craft custom websites that elevate your business.</p>
+      <a href="#quote" class="btn">Request a Quote</a>
+    </div>
+  </header>
+
+  <section class="features">
+    <div class="container">
+      <h2>What We Do</h2>
+      <div class="grid">
+        <div class="feature-card">
+          <h3>Custom Design</h3>
+          <p>Beautiful, user-focused designs built from scratch.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Responsive Layout</h3>
+          <p>Seamless experience across mobile, tablet, and desktop.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Fast & Secure</h3>
+          <p>Optimized for speed and security right out of the box.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote" id="quote">
+    <div class="container">
+      <h2>Request a Quote</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Tell us about your project..." required></textarea>
+        <button type="submit">Send Request</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 CreativeWeb Co. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
